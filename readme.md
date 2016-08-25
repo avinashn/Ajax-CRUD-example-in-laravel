@@ -6,7 +6,7 @@
     composer update</pre>
 </li>
 <li>Rename .env.example to .env and provide your database details there.</li>
-
+<li>It needs a database table to perform CRUD operations on it. Run <pre>php artisan migrate</pre> to import the table</li>
 <li>Run <pre>php artisan key:generate</pre> </li>
 
 </ul>
