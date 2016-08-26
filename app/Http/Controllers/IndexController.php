@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Input;
 class IndexController extends Controller {
 	public function addItem(Request $request) {
 		$rules = array (
-				'name' => 'required' 
+				'name' => 'required|alpha_num' 
 		);
 		$validator = Validator::make ( Input::all (), $rules );
 		if ($validator->fails ())
