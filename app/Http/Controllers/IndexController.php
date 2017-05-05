@@ -11,13 +11,13 @@ use Illuminate\Support\Facades\Input;
 class IndexController extends Controller {
 	public function addItem(Request $request) {
 		$rules = array (
-				'name' => 'required|alpha_num' 
+				'name' => 'required|alpha_num'
 		);
 		$validator = Validator::make ( Input::all (), $rules );
 		if ($validator->fails ())
 			return Response::json ( array (
-					
-					'errors' => $validator->getMessageBag ()->toArray () 
+
+					'errors' => $validator->getMessageBag ()->toArray ()
 			) );
 		else {
 			$data = new Data ();
