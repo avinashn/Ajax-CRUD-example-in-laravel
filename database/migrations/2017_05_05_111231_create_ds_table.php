@@ -7,12 +7,9 @@ class CreateDsTable extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
     public function up()
     {
-        //
         Schema::create('ds', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
@@ -21,11 +18,8 @@ class CreateDsTable extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
     public function down()
     {
-        //
     }
 }

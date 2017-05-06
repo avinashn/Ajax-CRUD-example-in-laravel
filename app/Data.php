@@ -1,10 +1,11 @@
 <?php
 
-namespace App;
+namespace app;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Data extends Model {
-	protected $table = 'ds';
-	public $timestamps = false;
+class Data extends Model
+{
+    protected $table = 'ds';
+    public $timestamps = false;
 }

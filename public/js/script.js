@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(document).on('click', '.edit-modal', function() {
-        $('#footer_action_button').text(" Update");
+        $('#footer_action_button').text("Update");
         $('#footer_action_button').addClass('glyphicon-check');
         $('#footer_action_button').removeClass('glyphicon-trash');
         $('.actionBtn').addClass('btn-success');
