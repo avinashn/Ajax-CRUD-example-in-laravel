@@ -12,7 +12,7 @@
 </ul>
 
 ## Working Demo
-You can see the demo of the project <a href="http://justlaravel.com/demos/ajax-crud-operations-laravel/">here</a>
+You can see the demo of the project <a href="http://demos.justlaravel.com/ajax-crud-operations-laravel/">here</a>
 
 Video demonstrating the example https://www.youtube.com/watch?v=OdFExlejRcI
 
